@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*ENCABEZADO*/
+
+#encabezado{
+    width: 160px;
+    height: 100px;
+    background: url(../IMG/LOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+   
+}
+.container-fluid {
+    background-color:#0D0D0D!important;
+    height: 50px;
+    margin-top: 18px;
+    align-items: center;
+}
+.navbar-brand, .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19.5px !important;
+    color: #F2F2F2 !important;
+    padding-left: 30px !important;
+        
+}
+
+.btn-outline-success {
+    color: #F2CE1B !important;
+    border-color:#F2CE1B !important;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 0px;
+    
+
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #F2CE1B !important; 
+}
+
+.btn-outline-success:hover {
+    background-color: #646668!important; 
+    text-decoration: none !important;
+
+
+  }
+
+  .navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #ffd700;  
+    color: #0D0D0D;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+font-family:'Times New Roman', Times, serif;
+}
+
+.iniregi{
+    text-decoration: none;
+    color: #ffd700;
+}
+
+/*BODY*/
+
+body{
+    background: url(../IMG/Fondoo.jpg);
+    background-repeat:no-repeat center center fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/*IMAGEN RELLENO BIENVENIDO*/
+
+.concuchara {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.concuchara img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.concuchara::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.totex {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7em;
+    text-align: center;
+    z-index: 2;
+    font-weight: bold;
+}
+
+
+/*CARRUSEL*/
+
+.carousel-item {
+    width: 100%;
+    height: 380px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+
+}
+
+
+
+
+#FOOTER {
+    width: 100%;
+	background:#0D0D0D;
+	padding:20px;
+	color:#F2F2F2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    transform: translate(-50%, 128%);
+    left: 50%;
+    position: absolute;
+
+}
+
+#FOOTER P{
+	text-align: center;
+    font-size: 1EM;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px auto;
+    width: 90%;
+    font-weight: bold; 
+    
+}
+
+
+/*LOGIN*/
+#login {
+    border: 1px solid black;
+    width: 500px;
+    height: 550px;
+    background: url(../IMG/FONDOLOGIN.jpg);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    justify-content: center;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: -130px;
+    position:relative;
+}
+
+
+#LOGIN {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display:flex;
+    gap: 5px;
+}
+
+
+.Inicio {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+select{
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+#button1 {
+    color: #F2CE1B !important;
+    background: rgba(255, 255, 255, 0.596);
+    border-color:#0D0D0D !important;
+    height: 40px;
+    width: 190px;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+#button1:hover{
+
+    background-color: rgba(255, 255, 255, 0.20); 
+    
+}
+#CCLOGIN {
+    font-size: 20px;
+}
+
+#RECUPERAR{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*REGISTRO*/
+
+#loginR {
+    border: 1px solid black;
+    width: 700px;
+    height: 1100px;
+    background: url(../IMG/FONDOLOGIN.jpg);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    justify-content: center;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: -130px;
+    position:relative;
+}
+
+
+#LOGINR {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display:flex;
+    gap: 5px;
+}
+
+.regis {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    width: 80%;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*OFERTAS*/
+
+#tituloofertas {
+    background-color: #F2CE1B;
+    width: 300px;
+    height: 55px;
+    transform: translate(-50%);
+    left: 50%;
+    position:relative;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 13px;
+}
+
+.tituloofertas {
+    font-family:'Times New Roman', Times, serif;
+    font-size:23px ;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+#OFERTAS {
+
+    border-color:#0D0D0D !important;
+    width: 100%;
+    height: 100PX;
+    text-align: center;
+    
+}
+
+.ofertas1 {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    float: left;
+    margin-left: 75PX;
+    padding-bottom: 15%;
+    background-image: url(../IMG/tecnologo.png);
+        filter: brightness(.33);
+    position: relative;
+    border-radius: 100px;
+}
+
+.ofertas2 {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    float: left;
+    margin-left: 30PX;
+    padding-bottom: 15%;
+    background-image: url(../IMG/images.png);
+    filter: brightness(.33);
+    position: relative;
+    border-radius: 100px;
+}
+
+
+.ofertas3  {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    float: left;
+    margin-left: 30PX;
+    padding-bottom: 15%;
+    background-image: url(../IMG/cursos.jfif);
+    filter: brightness(.33);
+    position: relative;
+    border-radius: 100px;
+    }
+    .ofertas3  ::after{
+        position: relative;
+        background-color:rgba(0, 0, 0, .33);
+        content: "";
+    }
+
+
+
+.ofertas3:hover{
+    border-radius: 100px;
+    border: 2px solid #0D0D0D;
+    box-shadow: 5px 5px  rgb(74, 74, 77);   
+}
+.ofertas2:hover{
+    border-radius: 100px;
+    border: 2px solid #0D0D0D;
+    box-shadow: 5px 5px  rgb(74, 74, 77);
+}
+.ofertas1:hover{
+    border: 2px solid #0D0D0D;
+    box-shadow: 5px 5px  rgb(74, 74, 77);
+}
+
+/*CUADRICULA TABLAS */
+table{
+    width: 90%;
+    border: 1px solid #0D0D0D;
+
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #0D0D0D;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    font-size: 16PX;
+    
+    
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #0D0D0D;
+ }
+ th {
+    background: #eee;
+ }
+
+ TR, H4{
+    color: #0D0D0D;
+}
+
+.tituloselect{
+    text-align: center;
+}
+
+/*LISTADOS*/
+
+.BotonInSe{
+    background-color:white;
+    text-decoration: none;
+    border-radius: 20%;
+}
